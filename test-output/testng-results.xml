@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-12T17:13:56Z" name="Default suite" finished-at="2022-02-12T17:14:20Z" duration-ms="24377">
+    <groups>
+    </groups>
+    <test started-at="2022-02-12T17:13:56Z" name="Default test" finished-at="2022-02-12T17:14:20Z" duration-ms="24377">
+      <class name="com.testng.Exception">
+        <test-method signature="except()[pri:0, instance:com.testng.Exception@71e693fa]" started-at="2022-02-12T17:13:56Z" name="except" finished-at="2022-02-12T17:14:20Z" duration-ms="24320" status="FAIL">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method Exception.except()[pri:0, instance:com.testng.Exception@71e693fa] should have thrown an exception of type class com.testng.Exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method Exception.except()[pri:0, instance:com.testng.Exception@71e693fa] should have thrown an exception of type class com.testng.Exception
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- except -->
+      </class> <!-- com.testng.Exception -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
